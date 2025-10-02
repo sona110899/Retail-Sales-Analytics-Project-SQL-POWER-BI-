@@ -34,7 +34,7 @@ The project follows a **Star Schema**:
 
 ## 📂 Dataset
 
-CSV files used in this project (placed in `datasets/csv-files/`):
+CSV files used in this project (placed in `Datasets/CsvFiles`):
 
 * `sales.dim_customers.csv`
 * `sales.dim_products.csv`
@@ -90,7 +90,7 @@ CSV files used in this project (placed in `datasets/csv-files/`):
 
 ## 🛠️ Tech Stack
 
-* **SQL Server (T-SQL)** – Data modeling & analysis
+* **SQL Server** – Data modeling & analysis
 * **CSV Data Sources** – Raw datasets
 * **Power BI** – Dashboard & visualization
 * **Star Schema Modeling**
@@ -100,19 +100,19 @@ CSV files used in this project (placed in `datasets/csv-files/`):
 ## 📌 How to Run
 
 1. Clone the repository
-2. Run `retail-sales-analytics.sql` in SQL Server to create schema & load data
-3. Update file paths for CSVs in `BULK INSERT` queries
+2. Run `00_Create_Database.sql` in SQL Server to create schema & load data
+3. Update file paths for CSVs in `BULK INSERT` queries.
 4. Open the **Power BI file (`retail-sales-analytics.pbix`)** to explore the dashboard
 
 ---
 
 ## 📜 Key Learnings
 
-* Designing a **retail analytics database schema**
+* Designing a **sales schema**
 * Implementing ETL with **bulk data loads**
 * Writing **advanced SQL queries** (window functions, ranking, segmentation)
 * Creating **Power BI dashboards** for business reporting and insights
-* End-to-end **Retail Sales Analytics pipeline** from raw data to visualization
+* End-to-end **Retail Sales Analytics Project** from raw data to visualization
 
 ---
 
