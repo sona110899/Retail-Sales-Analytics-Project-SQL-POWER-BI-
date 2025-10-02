@@ -80,12 +80,17 @@ CSV files used in this project (placed in `Datasets/CsvFiles`):
 * **KPIs:** Total Sales, Orders, Customers, Products,Quantity, Avg Price
 * **Visuals:**
 
-  * Sales trend by year-month
-  * Customers trend by year-month
-  * Category-wise and country-wise revenue distribution
-  * Top 10 customers and top 5 products by sales
-  * 
-* **Filters & Interactivity:** Dynamic slicers for time period, category, and region
+  * Sales Over Time – Line chart with Total Sales and Running Sales (YTD)
+  * Total Customers Over Time – Line chart
+  * Customer Segment Distribution – Pie chart
+  * Customers By Country – Map visual
+  * Products By Category-Treemap
+  * Average Cost By Category-Column chart
+  * Category By revenu-Column chart
+  * Top 5 Products and Top 10 Customers By Revenue-Column chart
+  * Distributions of  sold items across Countries -Donut chart
+
+* **Filters & Interactivity:** Dynamic slicers for time period, category, loaction and gender
 
 ---
 
@@ -100,10 +105,12 @@ CSV files used in this project (placed in `Datasets/CsvFiles`):
 
 ## 📌 How to Run
 
-1. Clone the repository
-2. Run `00_Create_Database.sql` in SQL Server to create schema & load data
-3. Update file paths for CSVs in `BULK INSERT` queries.
-4. Open the **Power BI file (`retail-sales-analytics.pbix`)** to explore the dashboard
+1. Clone the repository.
+2. Run `00_Create_Database.sql` in SQL Server to create the database schema and load initial data.
+3. Update file paths for CSVs in `BULK INSERT` queries if required.
+4. After creating the database, run the other scripts present in the `scripts` folder to perform additional data transformations and analysis.
+5. Open the **Power BI file (`Sales Opportunity Insights Dashboard.pbix`)** to explore the dashboard.
+
 
 ---
 
@@ -120,4 +127,4 @@ CSV files used in this project (placed in `Datasets/CsvFiles`):
 ## 📧 Contact
 
 👤 **Sona Singh**
-📩 [LinkedIn](#) 
+📩 [LinkedIn](https://www.linkedin.com/in/singhsonaa/)
