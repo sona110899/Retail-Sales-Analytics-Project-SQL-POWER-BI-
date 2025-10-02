@@ -77,13 +77,14 @@ CSV files used in this project (placed in `Datasets/CsvFiles`):
 
 ### 🔹 Power BI Dashboard
 
-* **KPIs:** Total Sales, Orders, Customers, Products, Avg Price
+* **KPIs:** Total Sales, Orders, Customers, Products,Quantity, Avg Price
 * **Visuals:**
 
-  * Sales trend by year & month
+  * Sales trend by year-month
+  * Customers trend by year-month
   * Category-wise and country-wise revenue distribution
   * Top 10 customers and top 5 products by sales
-  * Customer demographics (gender, country segmentation)
+  * 
 * **Filters & Interactivity:** Dynamic slicers for time period, category, and region
 
 ---
