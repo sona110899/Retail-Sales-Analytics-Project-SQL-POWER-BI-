@@ -106,9 +106,9 @@ CSV files used in this project (placed in `Datasets/CsvFiles`):
 ## 📌 How to Run
 
 1. Clone the repository.
-2. Run `00_Create_Database.sql` in SQL Server to create the database schema and load initial data.
+2. Run `00_Create_Database.sql` in SQL Server to create the database schema and load initial data,Path:Scripts/00_Create_Database.sql
 3. Update file paths for CSVs in `BULK INSERT` queries if required.
-4. After creating the database, run the other scripts present in the `scripts` folder to perform additional data transformations and analysis.
+4. After creating the database, run the other scripts present in the `Scripts` folder to perform data analysis.
 5. Open the **Power BI file (`Sales Opportunity Insights Dashboard.pbix`)** to explore the dashboard.
 
 
